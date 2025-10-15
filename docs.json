@@ -24,7 +24,7 @@
             "pages": [
               "course/phase1/module1-take-stock",
               "course/phase1/module2-pufa-problem",
-              "course/phase1/module3-sugar-truth"
+              "course/phase1/module-3-sugar-truth"
             ]
           },
           {
@@ -41,7 +41,7 @@
             "pages": [
               "course/phase3/module8-personal-protocol",
               "course/phase3/module9-social-situations",
-              "course/phase3/module10-supplements",
+              "course/phase3/module-10-supplements",
               "course/phase3/module11-meditative-practice",
               "course/phase3/module12-long-term-maintenance"
             ]
