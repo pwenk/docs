@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "SugarSaint Course",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -10,6 +10,44 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
+      {
+        "tab": "Course",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "course/overview"
+            ]
+          },
+          {
+            "group": "Phase 1: Foundation (Weeks 1-2)",
+            "pages": [
+              "course/phase1/module1-take-stock",
+              "course/phase1/module2-pufa-problem",
+              "course/phase1/module3-sugar-truth"
+            ]
+          },
+          {
+            "group": "Phase 2: Experimentation (Weeks 3-5)",
+            "pages": [
+              "course/phase2/module4-reading-body",
+              "course/phase2/module5-pufa-elimination",
+              "course/phase2/module6-experiment-library",
+              "course/phase2/module7-thyroid-hormones"
+            ]
+          },
+          {
+            "group": "Phase 3: Refinement (Weeks 6-8)",
+            "pages": [
+              "course/phase3/module8-personal-protocol",
+              "course/phase3/module9-social-situations",
+              "course/phase3/module10-supplements",
+              "course/phase3/module11-meditative-practice",
+              "course/phase3/module12-long-term-maintenance"
+            ]
+          }
+        ]
+      },
       {
         "tab": "Guides",
         "groups": [
@@ -102,15 +140,21 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode",
+      {
+        "title": "Mintlify MCP server",
+        "description": "Open the hosted MCP server for this documentation set.",
+        "icon": "server",
+        "href": "https://sugarsaint-15f9a70d.mintlify.app/mcp"
+      }
+    ]
   },
   "footer": {
     "socials": {
