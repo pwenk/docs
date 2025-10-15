@@ -20,7 +20,7 @@
             ]
           },
           {
-            "group": "Phase 1: Foundation (Weeks 1-2)",
+            "group": "Phase 1: Foundation",
             "pages": [
               "course/phase1/module1-take-stock",
               "course/phase1/module2-pufa-problem",
@@ -28,7 +28,7 @@
             ]
           },
           {
-            "group": "Phase 2: Experimentation (Weeks 3-5)",
+            "group": "Phase 2: Experimentation",
             "pages": [
               "course/phase2/module4-reading-body",
               "course/phase2/module5-pufa-elimination",
@@ -37,7 +37,7 @@
             ]
           },
           {
-            "group": "Phase 3: Refinement (Weeks 6-8)",
+            "group": "Phase 3: Refinement",
             "pages": [
               "course/phase3/module8-personal-protocol",
               "course/phase3/module9-social-situations",
