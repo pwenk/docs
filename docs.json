@@ -5,21 +5,7 @@
   "colors": {
     "primary": "#D4AF37",
     "light": "#FFB84D",
-    "dark": "#C29F2F",
-    "background": {
-      "light": "#FFFBF5",
-      "dark": "#2C2C2C"
-    }
-  },
-  "font": {
-    "headings": {
-      "family": "Inter",
-      "weight": 600
-    },
-    "body": {
-      "family": "Inter",
-      "weight": 400
-    }
+    "dark": "#C29F2F"
   },
   "favicon": "/favicon.svg",
   "navigation": {
