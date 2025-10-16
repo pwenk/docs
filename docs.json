@@ -17,6 +17,7 @@
             "group": "Overview",
             "pages": [
               "course/overview",
+              "course/course-summaries",
               "course/deliverables",
               "course/faq"
             ]
