@@ -54,7 +54,9 @@
             "group": "Bonus Resources",
             "pages": [
               "course/bonus/restaurant-pufa-detector",
-              "course/bonus/kitchen-pufa-audit"
+              "course/bonus/kitchen-pufa-audit",
+              "course/bonus/thyroid-glucose-connection",
+              "course/bonus/good-sugar-vs-bad-sugar"
             ]
           }
         ]
