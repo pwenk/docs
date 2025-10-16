@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" style="background-color: #FFFBF5;">
+  <!-- Grid Lines -->
+  <g stroke="#E5E5E5" stroke-width="1" opacity="0.5">
+    <line x1="100" y1="100" x2="100" y2="500" />
+    <line x1="100" y1="500" x2="1100" y2="500" />
+    <line x1="100" y1="400" x2="1100" y2="400" stroke-dasharray="4,4" />
+    <line x1="100" y1="300" x2="1100" y2="300" stroke-dasharray="4,4" />
+    <line x1="100" y1="200" x2="1100" y2="200" stroke-dasharray="4,4" />
+    <line x1="100" y1="100" x2="1100" y2="100" stroke-dasharray="4,4" />
+  </g>
+
+  <!-- Y-Axis (Consumption) -->
+  <text x="20" y="280" font-family="Inter, sans-serif" font-size="14" fill="#2C2C2C" font-weight="600" transform="rotate(-90 20 280)">
+    Vegetable Oil Consumption (Million Metric Tons)
+  </text>
+  <text x="70" y="510" font-family="Inter, sans-serif" font-size="12" fill="#2C2C2C" text-anchor="end">0</text>
+  <text x="70" y="410" font-family="Inter, sans-serif" font-size="12" fill="#2C2C2C" text-anchor="end">5</text>
+  <text x="70" y="310" font-family="Inter, sans-serif" font-size="12" fill="#2C2C2C" text-anchor="end">10</text>
+  <text x="70" y="210" font-family="Inter, sans-serif" font-size="12" fill="#2C2C2C" text-anchor="end">15</text>
+  <text x="70" y="110" font-family="Inter, sans-serif" font-size="12" fill="#2C2C2C" text-anchor="end">20</text>
+
+  <!-- X-Axis (Years) -->
+  <text x="600" y="550" font-family="Inter, sans-serif" font-size="16" fill="#2C2C2C" font-weight="600" text-anchor="middle">Year</text>
+  <text x="120" y="530" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C" text-anchor="middle">1909</text>
+  <text x="270" y="530" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C" text-anchor="middle">1930</text>
+  <text x="410" y="530" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C" text-anchor="middle">1950</text>
+  <text x="550" y="530" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C" text-anchor="middle">1970</text>
+  <text x="690" y="530" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C" text-anchor="middle">1990</text>
+  <text x="830" y="530" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C" text-anchor="middle">2000</text>
+  <text x="970" y="530" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C" text-anchor="middle">2010</text>
+  <text x="1080" y="530" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C" text-anchor="middle">2019</text>
+
+  <!-- Total Vegetable Oil Consumption Area (Stacked areas showing dramatic rise) -->
+
+  <!-- Soybean oil (largest component - red/coral) -->
+  <path
+    d="M 120,495 L 150,495 L 180,493 L 210,492 L 240,490 L 270,485 L 300,478 L 330,468 L 360,455 L 390,438 L 420,418 L 450,395 L 480,368 L 510,340 L 540,310 L 570,280 L 600,255 L 630,235 L 660,220 L 690,210 L 720,205 L 750,202 L 780,200 L 810,195 L 840,188 L 870,180 L 900,170 L 930,160 L 960,148 L 990,135 L 1020,122 L 1050,110 L 1080,100 L 1080,500 L 120,500 Z"
+    fill="#E87A7A"
+    opacity="0.85"
+  />
+
+  <!-- Other oils stacked below (corn, canola, etc. - lighter colors) -->
+  <path
+    d="M 120,495 L 150,494 L 180,493 L 210,492 L 240,491 L 270,488 L 300,483 L 330,476 L 360,468 L 390,458 L 420,445 L 450,430 L 480,413 L 510,395 L 540,375 L 570,355 L 600,340 L 630,328 L 660,318 L 690,312 L 720,308 L 750,306 L 780,305 L 810,302 L 840,298 L 870,292 L 900,285 L 930,277 L 960,268 L 990,258 L 1020,248 L 1050,238 L 1080,230 L 1080,500 L 120,500 Z"
+    fill="#FFD6A5"
+    opacity="0.75"
+  />
+
+  <!-- Total consumption line (bold, dark) -->
+  <polyline
+    points="120,495 150,494 180,493 210,492 240,491 270,488 300,483 330,476 360,468 390,458 420,445 450,430 480,413 510,395 540,375 570,355 600,340 630,328 660,318 690,312 720,308 750,306 780,305 810,302 840,298 870,292 900,285 930,277 960,268 990,258 1020,248 1050,238 1080,230"
+    fill="none"
+    stroke="#2C2C2C"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+
+  <!-- Vertical line marking 1970 (when AHA recommended seed oils) -->
+  <line x1="550" y1="500" x2="550" y2="310" stroke="#D4AF37" stroke-width="2" stroke-dasharray="6,3" opacity="0.7" />
+
+  <!-- Annotation for 1970 -->
+  <g opacity="0.8">
+    <text x="560" y="290" font-family="Inter, sans-serif" font-size="12" fill="#C29F2F" font-weight="600">
+      1970: AHA recommends
+    </text>
+    <text x="560" y="305" font-family="Inter, sans-serif" font-size="12" fill="#C29F2F" font-weight="600">
+      vegetable oils over
+    </text>
+    <text x="560" y="320" font-family="Inter, sans-serif" font-size="12" fill="#C29F2F" font-weight="600">
+      saturated fat
+    </text>
+  </g>
+
+  <!-- Annotation showing increase -->
+  <g opacity="0.8">
+    <path d="M 300 430 L 950 200 L 930 210 M 950 200 L 940 220" stroke="#C29F2F" stroke-width="2" fill="none" />
+    <text x="620" y="300" font-family="Inter, sans-serif" font-size="14" fill="#C29F2F" font-style="italic" font-weight="600">
+      1000% increase
+    </text>
+    <text x="620" y="318" font-family="Inter, sans-serif" font-size="14" fill="#C29F2F" font-style="italic" font-weight="600">
+      (1909-2019)
+    </text>
+  </g>
+
+  <!-- Legend -->
+  <rect x="850" y="80" width="220" height="100" fill="#FFFBF5" stroke="#E5E5E5" stroke-width="1" rx="4" />
+
+  <rect x="865" y="95" width="30" height="15" fill="#E87A7A" opacity="0.85" />
+  <text x="905" y="106" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C">Soybean (largest)</text>
+
+  <rect x="865" y="120" width="30" height="15" fill="#FFD6A5" opacity="0.75" />
+  <text x="905" y="131" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C">Other oils</text>
+
+  <line x1="865" y1="153" x2="895" y2="153" stroke="#2C2C2C" stroke-width="3" />
+  <text x="905" y="158" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C">Total consumption</text>
+
+  <!-- Data Source Citation -->
+  <text x="100" y="580" font-family="Inter, sans-serif" font-size="11" fill="#666666" font-style="italic">
+    Source: USDA Economic Research Service | Analysis: Nutrients 2023, 15(14), 3129
+  </text>
+</svg>
