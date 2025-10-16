@@ -30,28 +30,19 @@
   <text x="970" y="530" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C" text-anchor="middle">2010</text>
   <text x="1080" y="530" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C" text-anchor="middle">2019</text>
 
-  <!-- Total Vegetable Oil Consumption Area (Stacked areas showing dramatic rise) -->
-
-  <!-- Soybean oil (largest component - red/coral) -->
+  <!-- Total Vegetable Oil Consumption Area (filled Sacred Gold gradient) -->
   <path
-    d="M 120,495 L 150,495 L 180,493 L 210,492 L 240,490 L 270,485 L 300,478 L 330,468 L 360,455 L 390,438 L 420,418 L 450,395 L 480,368 L 510,340 L 540,310 L 570,280 L 600,255 L 630,235 L 660,220 L 690,210 L 720,205 L 750,202 L 780,200 L 810,195 L 840,188 L 870,180 L 900,170 L 930,160 L 960,148 L 990,135 L 1020,122 L 1050,110 L 1080,100 L 1080,500 L 120,500 Z"
-    fill="#E87A7A"
-    opacity="0.85"
+    d="M 120,495 L 150,494 L 180,493 L 210,492 L 240,490 L 270,485 L 300,478 L 330,468 L 360,455 L 390,438 L 420,418 L 450,395 L 480,368 L 510,340 L 540,310 L 570,280 L 600,255 L 630,235 L 660,220 L 690,210 L 720,205 L 750,202 L 780,200 L 810,195 L 840,188 L 870,180 L 900,170 L 930,160 L 960,148 L 990,135 L 1020,122 L 1050,110 L 1080,100 L 1080,500 L 120,500 Z"
+    fill="url(#paint0_gradient)"
+    opacity="0.3"
   />
 
-  <!-- Other oils stacked below (corn, canola, etc. - lighter colors) -->
-  <path
-    d="M 120,495 L 150,494 L 180,493 L 210,492 L 240,491 L 270,488 L 300,483 L 330,476 L 360,468 L 390,458 L 420,445 L 450,430 L 480,413 L 510,395 L 540,375 L 570,355 L 600,340 L 630,328 L 660,318 L 690,312 L 720,308 L 750,306 L 780,305 L 810,302 L 840,298 L 870,292 L 900,285 L 930,277 L 960,268 L 990,258 L 1020,248 L 1050,238 L 1080,230 L 1080,500 L 120,500 Z"
-    fill="#FFD6A5"
-    opacity="0.75"
-  />
-
-  <!-- Total consumption line (bold, dark) -->
+  <!-- Total consumption line (Sacred Gold, bold) -->
   <polyline
-    points="120,495 150,494 180,493 210,492 240,491 270,488 300,483 330,476 360,468 390,458 420,445 450,430 480,413 510,395 540,375 570,355 600,340 630,328 660,318 690,312 720,308 750,306 780,305 810,302 840,298 870,292 900,285 930,277 960,268 990,258 1020,248 1050,238 1080,230"
+    points="120,495 150,494 180,493 210,492 240,490 270,485 300,478 330,468 360,455 390,438 420,418 450,395 480,368 510,340 540,310 570,280 600,255 630,235 660,220 690,210 720,205 750,202 780,200 810,195 840,188 870,180 900,170 930,160 960,148 990,135 1020,122 1050,110 1080,100"
     fill="none"
-    stroke="#2C2C2C"
-    stroke-width="3"
+    stroke="#D4AF37"
+    stroke-width="4"
     stroke-linecap="round"
   />
 
@@ -83,19 +74,20 @@
   </g>
 
   <!-- Legend -->
-  <rect x="850" y="80" width="220" height="100" fill="#FFFBF5" stroke="#E5E5E5" stroke-width="1" rx="4" />
-
-  <rect x="865" y="95" width="30" height="15" fill="#E87A7A" opacity="0.85" />
-  <text x="905" y="106" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C">Soybean (largest)</text>
-
-  <rect x="865" y="120" width="30" height="15" fill="#FFD6A5" opacity="0.75" />
-  <text x="905" y="131" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C">Other oils</text>
-
-  <line x1="865" y1="153" x2="895" y2="153" stroke="#2C2C2C" stroke-width="3" />
-  <text x="905" y="158" font-family="Inter, sans-serif" font-size="13" fill="#2C2C2C">Total consumption</text>
+  <rect x="900" y="90" width="180" height="55" fill="#FFFBF5" stroke="#E5E5E5" stroke-width="1" rx="4" />
+  <line x1="915" y1="115" x2="955" y2="115" stroke="#D4AF37" stroke-width="4" />
+  <text x="965" y="120" font-family="Inter, sans-serif" font-size="14" fill="#2C2C2C" font-weight="500">Total Vegetable Oil</text>
 
   <!-- Data Source Citation -->
   <text x="100" y="580" font-family="Inter, sans-serif" font-size="11" fill="#666666" font-style="italic">
     Source: USDA Economic Research Service | Analysis: Nutrients 2023, 15(14), 3129
   </text>
+
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="paint0_gradient" x1="600" y1="100" x2="600" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
 </svg>
