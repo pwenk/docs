@@ -3,9 +3,23 @@
   "theme": "mint",
   "name": "SugarSaint Course",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#D4AF37",
+    "light": "#FFB84D",
+    "dark": "#C29F2F",
+    "background": {
+      "light": "#FFFBF5",
+      "dark": "#2C2C2C"
+    }
+  },
+  "font": {
+    "headings": {
+      "family": "Inter",
+      "weight": 600
+    },
+    "body": {
+      "family": "Inter",
+      "weight": 400
+    }
   },
   "favicon": "/favicon.svg",
   "navigation": {
