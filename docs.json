@@ -53,6 +53,7 @@
           {
             "group": "Bonus Resources",
             "pages": [
+              "course/bonus/glp1-metabolic-truth",
               "course/bonus/restaurant-pufa-detector",
               "course/bonus/kitchen-pufa-audit",
               "course/bonus/thyroid-glucose-connection",
