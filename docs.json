@@ -8,6 +8,12 @@
     "dark": "#C29F2F"
   },
   "favicon": "/favicon.svg",
+  "seo": {
+    "indexHiddenPages": false
+  },
+  "metadata": {
+    "robots": "noindex, nofollow"
+  },
   "navigation": {
     "tabs": [
       {
