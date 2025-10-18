@@ -1,6 +1,6 @@
 <svg width="320" height="120" viewBox="0 0 320 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoDarkTitle logoDarkDesc">
-  <title id="logoDarkTitle">Sugar Saint logo</title>
-  <desc id="logoDarkDesc">Three-dimensional sugar cube with halo and sparkle next to the Sugar Saint wordmark</desc>
+  <title id="logoDarkTitle">SugarSaint logo</title>
+  <desc id="logoDarkDesc">Three-dimensional sugar cube with halo and sparkle next to the SugarSaint wordmark</desc>
   <defs>
     <linearGradient id="darkHalo" x1="12" y1="10" x2="84" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#FF9CD9" stop-opacity="0.9" />
